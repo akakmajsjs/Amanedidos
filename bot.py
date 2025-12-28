@@ -5,10 +5,10 @@ from telegram import Update
 import asyncio
 from datetime import datetime, timedelta
 
-TELEGRAM_TOKEN = ""
-ADMIN_ID = 664
+TELEGRAM_TOKEN = "8545010689:AAHqyHnkP3JH1tk9Gcksf3vBhLBT8FwxPgQ"
+ADMIN_ID = 7893031555
 SECOND_ADMIN_ID = 1397
-BOT_OWNER = "soulcracks_owner"
+BOT_OWNER = "7893031555"
 
 approved_users = {}
 active_attacks = {}
