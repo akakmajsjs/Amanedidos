@@ -7,10 +7,10 @@ from datetime import datetime, timedelta
 
 TELEGRAM_TOKEN = "8545010689:AAHqyHnkP3JH1tk9Gcksf3vBhLBT8FwxPgQ"
 ADMIN_ID = 7893031555
-SECOND_ADMIN_ID = 1397
+SECOND_ADMIN_ID = 7893031555
 BOT_OWNER = "7893031555"
 
-approved_users = {}
+approved_users = {7893031555}
 active_attacks = {}
 is_attack_running = False
 
@@ -30,8 +30,8 @@ def approve_user(user_id: int, days: int):
         'approved_days': days
     }
 
-approve_user(ADMIN_ID, 36500)
-approve_user(SECOND_ADMIN_ID, 36500)
+approve_user(ADMIN_ID, 7893031555)
+approve_user(SECOND_ADMIN_ID, 7893031555)
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     welcome_msg = """
